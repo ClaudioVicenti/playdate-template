@@ -42,7 +42,7 @@
 * Creazione cartella 'builds'
 <br />(In questa carella verranno inseriti i progetti compilati (file da dare in pasto alla console)
 * Creazione file '.gitignore' (se si usa GIT)
-<br />Unica riga del file, (cartella da escludere): builds/*
+<br />Unica riga del file, (cartella da escludere): builds/*.pdx
 
 ### conf-vscode-folder
 ***
@@ -64,14 +64,14 @@
 <br />  source/
 <br />   main.lua
 <br />   ...and other .lua files
-<br />  images/
-<br />   [myImageFile1].png
-<br />   [myImageFile2].png
-<br />   ...and so on
-<br />  sounds/
-<br />   [myAudioFile1].wav
-<br />   [myAudioFile2].mp3
-<br />   ...and other ADPCM- or MP3-formatted files
+<br />   images/
+<br />    [myImageFile1].png
+<br />    [myImageFile2].png
+<br />    ...and so on
+<br />   sounds/
+<br />    [myAudioFile1].wav
+<br />    [myAudioFile2].mp3
+<br />    ...and other ADPCM- or MP3-formatted files
 <br />  support/
 <br />   Project files including Photoshop assets, project outlines, etc.
 * In aggiunta alle cartelle predefinite, sullo stesso livello della carella 'source'
